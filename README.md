@@ -17,7 +17,12 @@ Select the api.html file to run the code in your web-browser
 #### Table:
 ![image](https://user-images.githubusercontent.com/56297484/89981466-8c462f80-dc91-11ea-8da2-0f09cc6bd175.png)
 
-#### PieChart:
+#### Pie Chart:
+![image](https://user-images.githubusercontent.com/56297484/89981497-98ca8800-dc91-11ea-941a-9a4d2555859e.png)
+
+#### Bar Graph:
+![image](https://user-images.githubusercontent.com/56297484/89981515-a1bb5980-dc91-11ea-907c-2edfd5877ce3.png)
+
 
 
 
