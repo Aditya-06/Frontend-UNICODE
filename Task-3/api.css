@@ -1,0 +1,34 @@
+body {
+    background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+canvas {
+    background-color: white;
+    margin: 1%;
+    padding: 10px;
+    float: left;
+    border-radius: 35px;
+}
+
+.container {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+
+#table-container {
+    background-color: white;
+    margin-top: 2rem;
+}
+
+
+
+@media only screen and (max-width: 830px) {
+    #pieChart {
+        display: none;
+    }
+}
