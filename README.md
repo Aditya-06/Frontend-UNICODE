@@ -9,6 +9,12 @@ Build a portfolio page
 ### Task-2 
 add a "contact me" funtionality with form validation to the portfolio page
 
+Run the profile.html file to view the portfolio page--the output should look like the folloing:
+
+![image](https://user-images.githubusercontent.com/56297484/89981816-31610800-dc92-11ea-8fab-bd8aa7366542.png)
+
+
+
 ### Task-3
 Use API calls to fetchb and display stats and figures about the coronavirus
 
