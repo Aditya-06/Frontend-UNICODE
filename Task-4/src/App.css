@@ -1,0 +1,127 @@
+body {
+  background: #9CECFB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+  background: #7F00FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 80%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  color: white;
+  text-align: center;
+  border: 5px solid white;
+  margin: 4rem auto;
+  padding: 20px 20px;
+  border-radius: 40px;
+}
+
+h1, h2{
+  margin: 1rem;
+  text-shadow: 4px 2px 5px black;
+}
+
+.answer {
+  border: 2px solid #fff;
+  padding: 5px 10px 5px 45px;
+  width: 45%;
+  text-align: left;
+  margin-top: 10px;
+  position: relative;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 5px 5px;
+  border-radius: 20px;
+  background-color: rgb(190, 231, 245);
+
+  
+}
+
+.answer.selected {
+  color: #4f4c4c;
+  background-color: #65f545;
+  border: 2px solid darkgreen;
+}
+
+.answer:hover {
+  color: #fffbfb;
+  background-color: #6c4fe9;
+  border: 2px solid darkblue;
+}
+
+.answer:focus {
+  outline: none;
+}
+
+.results span.correct {
+  color: #c8ffbb;
+}
+
+.results span.failed {
+  color: #f27c7c;
+}
+
+#error {
+  color: #f27c7c;
+  margin: 10px 5px;
+  font-weight: 600;
+  text-shadow: 4px 2px 5px black;
+}
+
+.btn {
+  color: #4f4c4c;
+  background-color: #ffffff;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 30%;
+  justify-content: right;
+  font-weight: 600;
+}
+
+.btn-next {
+  border-radius: 35px;
+  color: #1c92d2;
+  background-color: white;
+  text-align: center;
+  padding: 10px 2px;
+}
+
+.results {
+  border: 5px solid white;
+  margin: 20px auto 40px auto;
+  padding: 10px;
+  border-radius: 35px;
+}
+
+.result-correct {
+  background-color: rgb(73, 246, 29);
+  width: 50%;
+  
+  border-radius: 35px;
+  padding: 5px 5px;
+  margin: 10px auto 10px auto;
+}
+
+.result-wrong {
+  background-color: rgb(255, 95, 62);
+  width: 80%;
+  border-radius: 35px;
+  margin: 10px auto 10px auto;
+  padding: 5px 5px;
+}
+
+.total {
+  font-size: 3rem;
+  text-decoration: underline;
+}

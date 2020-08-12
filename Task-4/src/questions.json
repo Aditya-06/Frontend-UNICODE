@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "question": "How old were you in 1806?",
+        "option": [12, 0, 1806, -204],
+        "answer": "b",
+        "description": "0: It was a long time ago."
+
+
+    },
+    {
+        "id": "2",
+        "question": "How many people will you kill this year?",
+        "option": [12, 45, 56, 15],
+        "answer": "d",
+        "description": "15: Chances are low...but never zero."
+
+    },
+    {
+        "id": "3",
+        "question": "Why was Archduke Ferdinand murdered?",
+        "option": ["It wAs aN AcCideNt", "Germay jealous", "Slavs Reunited :(", "History never happened"],
+        "answer": "b",
+        "description": "Geramany jealous: Well...kinda obvious" 
+
+    }, 
+    {
+        "id": "4",
+        "question": "Why are you gay?",
+        "option": ["Born this way", "too much time in the hay", "Cause of kanye", "i watched Silento nay-nay"],
+        "answer": "a", 
+        "description": "Born this way: Its not a choice"
+
+    },
+    {
+        "id": "5",
+        "question": "How many people have died at the very spot you are on right now?",
+        "option": [12, 0, 1806, 204],
+        "answer": "a",
+        "description": "12: Chances are low...but never zero"
+
+
+    }
+]
