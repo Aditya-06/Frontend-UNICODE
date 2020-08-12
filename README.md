@@ -12,6 +12,16 @@ add a "contact me" funtionality with form validation to the portfolio page
 ### Task-3
 Use API calls to fetchb and display stats and figures about the coronavirus
 
+Select the api.html file to run the code in your web-browser
+
+#### Table:
+![image](https://user-images.githubusercontent.com/56297484/89981466-8c462f80-dc91-11ea-8da2-0f09cc6bd175.png)
+
+#### PieChart:
+
+
+
+
 ### Task-4
 Create a react quiz-app
 
