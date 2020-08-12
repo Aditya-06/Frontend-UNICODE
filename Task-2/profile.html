@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="profile.css" type="text/css">
+        <script src="profile.js"></script>
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css'>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>   
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+
+        <div class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand" href="#top"><i class="chess king icon"></i><span> Aditya Ajmera</span></a>
+                <div class="nav navbar-nav navbar-right">
+                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+                        Contact Me
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+          <!-- Modal -->
+        <div class="modal fade" id="exampleModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <form onsubmit="return validate()">
+                        <div class="container">
+                            <div class="form-group">    
+                                <label for="name">Full Name</label>
+                                <input class="form-control" type="text" placeholder="Name" id="name" name="name">   
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email-ID</label>
+                                <input class="form-control"  placeholder="Email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="number">Contact number</label>
+                                <input class="form-control" type="number" placeholder="Number" id="number" name="number" required pattern="[0-9]{10}">
+                            </div>
+                            <div class="form-group">
+                                <label for="title">Title</label>
+                                <input class="form-control" type="text" placeholder="Job title/student" id="title" name="title" required>
+                            </div>
+                        </div>
+                
+                
+                  <input type="submit" name="submit" id="submit" class="btn btn-success right">
+                  </form>
+                </div>
+            
+              </div>
+            </div>
+        </div>
+
+        <div class="bg-image"></div>
+
+        <div class="bg-text">
+        <h1>Hi! I am Aditya Ajmera</h1>
+        <p>And I'm a human</p>
+        </div>
+
+
+        <hr>
+
+        <div class="slideshow">
+            <div class="slideshow-item">
+                <img src="https://images5.alphacoders.com/823/823019.jpg" alt="image 1">
+                <div class="slideshow-item-text">
+                    <h3>Education</h3>
+                    <li>Dwarkadas Jivanlal Sanghvi College of Engineering (2019-2023)</li>
+                    <li>Pace Junior Science College (2017-2019)</li>
+                    <li>St. Gregorios High School (2017)</li>
+                </div>
+            </div>
+
+      
+            <div class="slideshow-item">
+                <img src="https://wallpaperaccess.com/full/639723.jpg" alt="image 2">
+                <div class="slideshow-item-text">
+                    <h3>Skills and Technologies</h3>
+                    <ul>
+                        <li><em>Languages:</em> Java, Python, C++, C</li>
+                        <li><em>Web Technologies:</em> HTML, CSS, javascript, Node.js, Mongoose</li>
+                        <li><em>Other Skills:</em>Machine Learning, Deep Learning, Cloud computing</li>
+
+
+                    </ul>
+                </div>
+            </div>
+       
+            <div class="slideshow-item">
+                <img src="https://wallpaperset.com/w/full/d/3/3/53817.jpg" alt="image 1">
+                <div class="slideshow-item-text">
+                    <h3>Hoobies and Interests</h3>
+                    <ul>
+                        <li>Football</li>
+                        <li>Music</li>
+                        <li>Living</li>
+                        <li>Art</li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+                    
+    
+        
+        
+    </body>
+</html>

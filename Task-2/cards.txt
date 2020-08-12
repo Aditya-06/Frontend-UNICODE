@@ -1,0 +1,59 @@
+=========================one card ========================================
+<div class="wrapper col-lg-4 col-md-6 col-sm-12">
+                    <div class="card"><img src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&amp;fit=crop&amp;w=667&amp;q=80&amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"/>
+                    <div class="info">
+                        <h2>Hobbies</h2>
+                        <hr>
+                        <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+                        
+                    </div>
+                    </div>
+                </div>
+
+=============================cards ==================================
+
+<div class="container">
+            <div class="row">
+                <div class=" card col-lg-4 col-md-6 col-xs-12">
+                    <div class="card-img-top">
+                        <img src="https://i.pinimg.com/originals/1b/ca/57/1bca575477e9c57fb0857f0329ad07b6.jpg" alt="coffee table">
+                    </div>
+                    <div class="card-body">
+                        
+                        <h2>Education</h2>
+                        <hr>
+                        <ul class="card-text">
+                            <li>Oompa Loompa</li>
+                            <li>Burn them all</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" card col-lg-4 col-md-6 col-sm-12">
+                    <div class="card-img-top">
+                        <img src="https://i.pinimg.com/originals/1b/ca/57/1bca575477e9c57fb0857f0329ad07b6.jpg" alt="coffee table">
+                    </div>
+                    <div class="card-body">
+                        
+                        <h1>Experience</h1>
+                    </div>
+                </div>
+                <div class=" card col-lg-4 col-md-6 col-sm-12">
+                    <div class="card-img-top">
+                        <img src="https://i.pinimg.com/originals/1b/ca/57/1bca575477e9c57fb0857f0329ad07b6.jpg" alt="coffee table">
+                    </div>
+                    <div class="card-body">
+                        
+                        <h1>Experience</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        .bg-image2 {
+    background-image: url("https://i.pinimg.com/originals/1b/ca/57/1bca575477e9c57fb0857f0329ad07b6.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: left;
+}
