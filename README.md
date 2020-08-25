@@ -1,5 +1,5 @@
 # Frontend-UNICODE
-This repository consists of the frontend tasks
+This repository consists of the frontend tasks. Task completed successfuly.
 
 ### Task-1
 Build a portfolio page
